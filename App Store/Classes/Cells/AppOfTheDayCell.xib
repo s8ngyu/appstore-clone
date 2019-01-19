@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AppOfTheDayCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="456"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="456"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fh9-Vc-p9w">
+                        <rect key="frame" x="20" y="20" width="374" height="436"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="14"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APP OF THE DAY" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDH-fQ-y2n">
+                        <rect key="frame" x="40" y="163" width="304" height="150.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="42"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLC-db-pxS">
+                        <rect key="frame" x="292" y="397" width="76" height="29"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="Fek-jE-MDO"/>
+                            <constraint firstAttribute="width" constant="76" id="tIJ-5Y-Dt9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <state key="normal" title="GET">
+                            <color key="titleColor" red="0.0" green="0.47984483506944442" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="14.5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The app for developers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1l-LH-gpD">
+                        <rect key="frame" x="104" y="412" width="181" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="6xl-IN-7at"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.94905598958333337" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Design" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igq-Hk-urV">
+                        <rect key="frame" x="104" y="395" width="181" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="TM8-xA-JjD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue" translatesAutoresizingMaskIntoConstraints="NO" id="2rC-99-dGA">
+                        <rect key="frame" x="40" y="388" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="NWd-Sg-clp"/>
+                            <constraint firstAttribute="width" constant="48" id="qGL-Q6-WyS"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="13.5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="igq-Hk-urV" firstAttribute="leading" secondItem="2rC-99-dGA" secondAttribute="trailing" constant="16" id="12x-Fd-gLr"/>
+                <constraint firstAttribute="trailing" secondItem="Fh9-Vc-p9w" secondAttribute="trailing" constant="20" id="2KU-as-RQl"/>
+                <constraint firstItem="r1l-LH-gpD" firstAttribute="leading" secondItem="2rC-99-dGA" secondAttribute="trailing" constant="16" id="Iwc-2Z-wIK"/>
+                <constraint firstItem="VLC-db-pxS" firstAttribute="trailing" secondItem="Fh9-Vc-p9w" secondAttribute="trailing" constant="-26" id="JIo-ds-qRj"/>
+                <constraint firstItem="Fh9-Vc-p9w" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="NZ0-cr-1YY"/>
+                <constraint firstItem="Fh9-Vc-p9w" firstAttribute="leading" secondItem="2rC-99-dGA" secondAttribute="leading" constant="-20" id="Q17-IK-ijF"/>
+                <constraint firstItem="2rC-99-dGA" firstAttribute="bottom" secondItem="Fh9-Vc-p9w" secondAttribute="bottom" constant="-20" id="RIi-Tt-qfv"/>
+                <constraint firstItem="VLC-db-pxS" firstAttribute="leading" secondItem="r1l-LH-gpD" secondAttribute="trailing" constant="7" id="Uop-1P-6lE"/>
+                <constraint firstItem="VLC-db-pxS" firstAttribute="leading" secondItem="igq-Hk-urV" secondAttribute="trailing" constant="7" id="WTM-dh-3ud"/>
+                <constraint firstItem="VLC-db-pxS" firstAttribute="centerY" secondItem="2rC-99-dGA" secondAttribute="centerY" constant="-0.5" id="ZT8-dy-g0H"/>
+                <constraint firstItem="Fh9-Vc-p9w" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="aR8-Oe-U3M"/>
+                <constraint firstItem="LDH-fQ-y2n" firstAttribute="centerY" secondItem="Fh9-Vc-p9w" secondAttribute="centerY" id="cdG-0k-tXn"/>
+                <constraint firstItem="LDH-fQ-y2n" firstAttribute="trailing" secondItem="Fh9-Vc-p9w" secondAttribute="trailing" constant="-50" id="fPs-eX-z0G"/>
+                <constraint firstItem="LDH-fQ-y2n" firstAttribute="leading" secondItem="Fh9-Vc-p9w" secondAttribute="leading" constant="20" id="oXi-Wn-LBM"/>
+                <constraint firstItem="r1l-LH-gpD" firstAttribute="top" secondItem="igq-Hk-urV" secondAttribute="bottom" id="pRA-mS-cAG"/>
+                <constraint firstAttribute="bottom" secondItem="Fh9-Vc-p9w" secondAttribute="bottom" id="rSX-zC-7FH"/>
+                <constraint firstItem="r1l-LH-gpD" firstAttribute="bottom" secondItem="Fh9-Vc-p9w" secondAttribute="bottom" constant="-28" id="vcv-20-Mff"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="322" height="185"/>
+            <connections>
+                <outlet property="getButton" destination="VLC-db-pxS" id="bzA-yT-kYx"/>
+                <outlet property="imageView" destination="Fh9-Vc-p9w" id="K5j-u8-z7j"/>
+            </connections>
+            <point key="canvasLocation" x="350.39999999999998" y="93.553223388305852"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="blue" width="60" height="60"/>
+    </resources>
+</document>

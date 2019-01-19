@@ -7,49 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C132A55E21F315A90013F808 /* TutorialsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C132A55C21F315A90013F808 /* TutorialsCollectionViewController.m */; };
-		C132A56221F315C50013F808 /* AppOfTheDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C132A56021F315C50013F808 /* AppOfTheDayCell.m */; };
-		C132A56321F315C50013F808 /* AppOfTheDayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C132A56121F315C50013F808 /* AppOfTheDayCell.xib */; };
-		C132A56621F315E90013F808 /* BaseRoundedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C132A56521F315E90013F808 /* BaseRoundedCell.m */; };
-		C132A56921F315F30013F808 /* Dismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = C132A56821F315F30013F808 /* Dismiss.m */; };
-		C132A56D21F316050013F808 /* FromTheEditorsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C132A56B21F316050013F808 /* FromTheEditorsCell.xib */; };
-		C132A56E21F316050013F808 /* FromTheEditorsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C132A56C21F316050013F808 /* FromTheEditorsCell.m */; };
-		C132A57121F316890013F808 /* Present.m in Sources */ = {isa = PBXBuildFile; fileRef = C132A57021F316890013F808 /* Present.m */; };
-		C132A57521F316C60013F808 /* TodaySectionHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C132A57221F316C60013F808 /* TodaySectionHeaderCell.xib */; };
-		C132A57621F316C60013F808 /* TodaySectionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C132A57421F316C60013F808 /* TodaySectionHeaderCell.m */; };
-		C132A57A21F316D50013F808 /* WorldPremiereCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C132A57721F316D50013F808 /* WorldPremiereCell.xib */; };
-		C132A57B21F316D50013F808 /* WorldPremiereCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C132A57921F316D50013F808 /* WorldPremiereCell.m */; };
-		C132A57E21F316FF0013F808 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C132A57D21F316FF0013F808 /* StoryViewController.m */; };
 		C16063C2219E5FFF00E64647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C16063C1219E5FFF00E64647 /* AppDelegate.m */; };
 		C16063C8219E5FFF00E64647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16063C6219E5FFF00E64647 /* Main.storyboard */; };
 		C16063CA219E600000E64647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16063C9219E600000E64647 /* Assets.xcassets */; };
 		C16063CD219E600000E64647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16063CB219E600000E64647 /* LaunchScreen.storyboard */; };
 		C16063D0219E600000E64647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C16063CF219E600000E64647 /* main.m */; };
+		C1A01D9C21F321B8001F4F4B /* AppOfTheDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A01D8321F321B8001F4F4B /* AppOfTheDayCell.m */; };
+		C1A01D9D21F321B8001F4F4B /* AppOfTheDayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A01D8421F321B8001F4F4B /* AppOfTheDayCell.xib */; };
+		C1A01D9E21F321B8001F4F4B /* BaseRoundedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A01D8621F321B8001F4F4B /* BaseRoundedCell.m */; };
+		C1A01D9F21F321B8001F4F4B /* FromTheEditorsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A01D8821F321B8001F4F4B /* FromTheEditorsCell.m */; };
+		C1A01DA021F321B8001F4F4B /* FromTheEditorsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A01D8921F321B8001F4F4B /* FromTheEditorsCell.xib */; };
+		C1A01DA121F321B8001F4F4B /* WorldPremiereCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A01D8B21F321B8001F4F4B /* WorldPremiereCell.m */; };
+		C1A01DA221F321B8001F4F4B /* WorldPremiereCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A01D8C21F321B8001F4F4B /* WorldPremiereCell.xib */; };
+		C1A01DA321F321B8001F4F4B /* TodaySectionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A01D8F21F321B8001F4F4B /* TodaySectionHeaderCell.m */; };
+		C1A01DA421F321B8001F4F4B /* TodaySectionHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A01D9021F321B8001F4F4B /* TodaySectionHeaderCell.xib */; };
+		C1A01DA521F321B8001F4F4B /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A01D9321F321B8001F4F4B /* StoryViewController.m */; };
+		C1A01DA621F321B8001F4F4B /* Dismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A01D9621F321B8001F4F4B /* Dismiss.m */; };
+		C1A01DA721F321B8001F4F4B /* Present.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A01D9821F321B8001F4F4B /* Present.m */; };
+		C1A01DA821F321B8001F4F4B /* TutorialsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A01D9B21F321B8001F4F4B /* TutorialsCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C132A55C21F315A90013F808 /* TutorialsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialsCollectionViewController.m; sourceTree = "<group>"; };
-		C132A55D21F315A90013F808 /* TutorialsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialsCollectionViewController.h; sourceTree = "<group>"; };
-		C132A55F21F315C50013F808 /* AppOfTheDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppOfTheDayCell.h; sourceTree = "<group>"; };
-		C132A56021F315C50013F808 /* AppOfTheDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppOfTheDayCell.m; sourceTree = "<group>"; };
-		C132A56121F315C50013F808 /* AppOfTheDayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppOfTheDayCell.xib; sourceTree = "<group>"; };
-		C132A56421F315E90013F808 /* BaseRoundedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRoundedCell.h; sourceTree = "<group>"; };
-		C132A56521F315E90013F808 /* BaseRoundedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRoundedCell.m; sourceTree = "<group>"; };
-		C132A56721F315F30013F808 /* Dismiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dismiss.h; sourceTree = "<group>"; };
-		C132A56821F315F30013F808 /* Dismiss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dismiss.m; sourceTree = "<group>"; };
-		C132A56A21F316050013F808 /* FromTheEditorsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromTheEditorsCell.h; sourceTree = "<group>"; };
-		C132A56B21F316050013F808 /* FromTheEditorsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FromTheEditorsCell.xib; sourceTree = "<group>"; };
-		C132A56C21F316050013F808 /* FromTheEditorsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FromTheEditorsCell.m; sourceTree = "<group>"; };
-		C132A56F21F316890013F808 /* Present.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Present.h; sourceTree = "<group>"; };
-		C132A57021F316890013F808 /* Present.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Present.m; sourceTree = "<group>"; };
-		C132A57221F316C60013F808 /* TodaySectionHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodaySectionHeaderCell.xib; sourceTree = "<group>"; };
-		C132A57321F316C60013F808 /* TodaySectionHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodaySectionHeaderCell.h; sourceTree = "<group>"; };
-		C132A57421F316C60013F808 /* TodaySectionHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodaySectionHeaderCell.m; sourceTree = "<group>"; };
-		C132A57721F316D50013F808 /* WorldPremiereCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorldPremiereCell.xib; sourceTree = "<group>"; };
-		C132A57821F316D50013F808 /* WorldPremiereCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldPremiereCell.h; sourceTree = "<group>"; };
-		C132A57921F316D50013F808 /* WorldPremiereCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldPremiereCell.m; sourceTree = "<group>"; };
-		C132A57C21F316FF0013F808 /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
-		C132A57D21F316FF0013F808 /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
 		C16063BD219E5FFF00E64647 /* App Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16063C0219E5FFF00E64647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C16063C1219E5FFF00E64647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +36,28 @@
 		C16063CC219E600000E64647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C16063CE219E600000E64647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C16063CF219E600000E64647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1A01D8221F321B8001F4F4B /* AppOfTheDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppOfTheDayCell.h; sourceTree = "<group>"; };
+		C1A01D8321F321B8001F4F4B /* AppOfTheDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppOfTheDayCell.m; sourceTree = "<group>"; };
+		C1A01D8421F321B8001F4F4B /* AppOfTheDayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppOfTheDayCell.xib; sourceTree = "<group>"; };
+		C1A01D8521F321B8001F4F4B /* BaseRoundedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRoundedCell.h; sourceTree = "<group>"; };
+		C1A01D8621F321B8001F4F4B /* BaseRoundedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRoundedCell.m; sourceTree = "<group>"; };
+		C1A01D8721F321B8001F4F4B /* FromTheEditorsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromTheEditorsCell.h; sourceTree = "<group>"; };
+		C1A01D8821F321B8001F4F4B /* FromTheEditorsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FromTheEditorsCell.m; sourceTree = "<group>"; };
+		C1A01D8921F321B8001F4F4B /* FromTheEditorsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FromTheEditorsCell.xib; sourceTree = "<group>"; };
+		C1A01D8A21F321B8001F4F4B /* WorldPremiereCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldPremiereCell.h; sourceTree = "<group>"; };
+		C1A01D8B21F321B8001F4F4B /* WorldPremiereCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldPremiereCell.m; sourceTree = "<group>"; };
+		C1A01D8C21F321B8001F4F4B /* WorldPremiereCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorldPremiereCell.xib; sourceTree = "<group>"; };
+		C1A01D8E21F321B8001F4F4B /* TodaySectionHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodaySectionHeaderCell.h; sourceTree = "<group>"; };
+		C1A01D8F21F321B8001F4F4B /* TodaySectionHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodaySectionHeaderCell.m; sourceTree = "<group>"; };
+		C1A01D9021F321B8001F4F4B /* TodaySectionHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodaySectionHeaderCell.xib; sourceTree = "<group>"; };
+		C1A01D9221F321B8001F4F4B /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		C1A01D9321F321B8001F4F4B /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
+		C1A01D9521F321B8001F4F4B /* Dismiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dismiss.h; sourceTree = "<group>"; };
+		C1A01D9621F321B8001F4F4B /* Dismiss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dismiss.m; sourceTree = "<group>"; };
+		C1A01D9721F321B8001F4F4B /* Present.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Present.h; sourceTree = "<group>"; };
+		C1A01D9821F321B8001F4F4B /* Present.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Present.m; sourceTree = "<group>"; };
+		C1A01D9A21F321B8001F4F4B /* TutorialsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialsCollectionViewController.h; sourceTree = "<group>"; };
+		C1A01D9B21F321B8001F4F4B /* TutorialsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialsCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,76 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C132A55621F3158F0013F808 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C132A55721F3158F0013F808 /* Cells */,
-				C132A55821F3158F0013F808 /* Header */,
-				C132A55921F3158F0013F808 /* Story */,
-				C132A55A21F3158F0013F808 /* Transition */,
-				C132A55B21F3158F0013F808 /* Tutorials */,
-			);
-			name = Classes;
-			path = "App/App Store/Classes";
-			sourceTree = SOURCE_ROOT;
-		};
-		C132A55721F3158F0013F808 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				C132A56421F315E90013F808 /* BaseRoundedCell.h */,
-				C132A56521F315E90013F808 /* BaseRoundedCell.m */,
-				C132A55F21F315C50013F808 /* AppOfTheDayCell.h */,
-				C132A56021F315C50013F808 /* AppOfTheDayCell.m */,
-				C132A56121F315C50013F808 /* AppOfTheDayCell.xib */,
-				C132A56A21F316050013F808 /* FromTheEditorsCell.h */,
-				C132A56C21F316050013F808 /* FromTheEditorsCell.m */,
-				C132A56B21F316050013F808 /* FromTheEditorsCell.xib */,
-				C132A57821F316D50013F808 /* WorldPremiereCell.h */,
-				C132A57921F316D50013F808 /* WorldPremiereCell.m */,
-				C132A57721F316D50013F808 /* WorldPremiereCell.xib */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		C132A55821F3158F0013F808 /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				C132A57321F316C60013F808 /* TodaySectionHeaderCell.h */,
-				C132A57421F316C60013F808 /* TodaySectionHeaderCell.m */,
-				C132A57221F316C60013F808 /* TodaySectionHeaderCell.xib */,
-			);
-			path = Header;
-			sourceTree = "<group>";
-		};
-		C132A55921F3158F0013F808 /* Story */ = {
-			isa = PBXGroup;
-			children = (
-				C132A57C21F316FF0013F808 /* StoryViewController.h */,
-				C132A57D21F316FF0013F808 /* StoryViewController.m */,
-			);
-			path = Story;
-			sourceTree = "<group>";
-		};
-		C132A55A21F3158F0013F808 /* Transition */ = {
-			isa = PBXGroup;
-			children = (
-				C132A56721F315F30013F808 /* Dismiss.h */,
-				C132A56821F315F30013F808 /* Dismiss.m */,
-				C132A56F21F316890013F808 /* Present.h */,
-				C132A57021F316890013F808 /* Present.m */,
-			);
-			path = Transition;
-			sourceTree = "<group>";
-		};
-		C132A55B21F3158F0013F808 /* Tutorials */ = {
-			isa = PBXGroup;
-			children = (
-				C132A55D21F315A90013F808 /* TutorialsCollectionViewController.h */,
-				C132A55C21F315A90013F808 /* TutorialsCollectionViewController.m */,
-			);
-			path = Tutorials;
-			sourceTree = "<group>";
-		};
 		C16063B4219E5FFE00E64647 = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +90,7 @@
 		C16063BF219E5FFF00E64647 /* App Store */ = {
 			isa = PBXGroup;
 			children = (
-				C132A55621F3158F0013F808 /* Classes */,
+				C1A01D8021F321B8001F4F4B /* Classes */,
 				C16063C0219E5FFF00E64647 /* AppDelegate.h */,
 				C16063C1219E5FFF00E64647 /* AppDelegate.m */,
 				C16063C6219E5FFF00E64647 /* Main.storyboard */,
@@ -170,6 +100,75 @@
 				C16063CF219E600000E64647 /* main.m */,
 			);
 			path = "App Store";
+			sourceTree = "<group>";
+		};
+		C1A01D8021F321B8001F4F4B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1A01D8121F321B8001F4F4B /* Cells */,
+				C1A01D8D21F321B8001F4F4B /* Header */,
+				C1A01D9121F321B8001F4F4B /* Story */,
+				C1A01D9421F321B8001F4F4B /* Transition */,
+				C1A01D9921F321B8001F4F4B /* Tutorials */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C1A01D8121F321B8001F4F4B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C1A01D8221F321B8001F4F4B /* AppOfTheDayCell.h */,
+				C1A01D8321F321B8001F4F4B /* AppOfTheDayCell.m */,
+				C1A01D8421F321B8001F4F4B /* AppOfTheDayCell.xib */,
+				C1A01D8521F321B8001F4F4B /* BaseRoundedCell.h */,
+				C1A01D8621F321B8001F4F4B /* BaseRoundedCell.m */,
+				C1A01D8721F321B8001F4F4B /* FromTheEditorsCell.h */,
+				C1A01D8821F321B8001F4F4B /* FromTheEditorsCell.m */,
+				C1A01D8921F321B8001F4F4B /* FromTheEditorsCell.xib */,
+				C1A01D8A21F321B8001F4F4B /* WorldPremiereCell.h */,
+				C1A01D8B21F321B8001F4F4B /* WorldPremiereCell.m */,
+				C1A01D8C21F321B8001F4F4B /* WorldPremiereCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C1A01D8D21F321B8001F4F4B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				C1A01D8E21F321B8001F4F4B /* TodaySectionHeaderCell.h */,
+				C1A01D8F21F321B8001F4F4B /* TodaySectionHeaderCell.m */,
+				C1A01D9021F321B8001F4F4B /* TodaySectionHeaderCell.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		C1A01D9121F321B8001F4F4B /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				C1A01D9221F321B8001F4F4B /* StoryViewController.h */,
+				C1A01D9321F321B8001F4F4B /* StoryViewController.m */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		C1A01D9421F321B8001F4F4B /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				C1A01D9521F321B8001F4F4B /* Dismiss.h */,
+				C1A01D9621F321B8001F4F4B /* Dismiss.m */,
+				C1A01D9721F321B8001F4F4B /* Present.h */,
+				C1A01D9821F321B8001F4F4B /* Present.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		C1A01D9921F321B8001F4F4B /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				C1A01D9A21F321B8001F4F4B /* TutorialsCollectionViewController.h */,
+				C1A01D9B21F321B8001F4F4B /* TutorialsCollectionViewController.m */,
+			);
+			path = Tutorials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,11 +228,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C132A57521F316C60013F808 /* TodaySectionHeaderCell.xib in Resources */,
 				C16063CD219E600000E64647 /* LaunchScreen.storyboard in Resources */,
-				C132A56D21F316050013F808 /* FromTheEditorsCell.xib in Resources */,
-				C132A56321F315C50013F808 /* AppOfTheDayCell.xib in Resources */,
-				C132A57A21F316D50013F808 /* WorldPremiereCell.xib in Resources */,
+				C1A01DA021F321B8001F4F4B /* FromTheEditorsCell.xib in Resources */,
+				C1A01DA421F321B8001F4F4B /* TodaySectionHeaderCell.xib in Resources */,
+				C1A01D9D21F321B8001F4F4B /* AppOfTheDayCell.xib in Resources */,
+				C1A01DA221F321B8001F4F4B /* WorldPremiereCell.xib in Resources */,
 				C16063CA219E600000E64647 /* Assets.xcassets in Resources */,
 				C16063C8219E5FFF00E64647 /* Main.storyboard in Resources */,
 			);
@@ -246,17 +245,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C132A55E21F315A90013F808 /* TutorialsCollectionViewController.m in Sources */,
-				C132A56921F315F30013F808 /* Dismiss.m in Sources */,
-				C132A57621F316C60013F808 /* TodaySectionHeaderCell.m in Sources */,
-				C132A57121F316890013F808 /* Present.m in Sources */,
+				C1A01DA821F321B8001F4F4B /* TutorialsCollectionViewController.m in Sources */,
+				C1A01DA521F321B8001F4F4B /* StoryViewController.m in Sources */,
+				C1A01D9E21F321B8001F4F4B /* BaseRoundedCell.m in Sources */,
 				C16063D0219E600000E64647 /* main.m in Sources */,
-				C132A56221F315C50013F808 /* AppOfTheDayCell.m in Sources */,
-				C132A56621F315E90013F808 /* BaseRoundedCell.m in Sources */,
-				C132A57E21F316FF0013F808 /* StoryViewController.m in Sources */,
-				C132A56E21F316050013F808 /* FromTheEditorsCell.m in Sources */,
-				C132A57B21F316D50013F808 /* WorldPremiereCell.m in Sources */,
+				C1A01D9F21F321B8001F4F4B /* FromTheEditorsCell.m in Sources */,
+				C1A01D9C21F321B8001F4F4B /* AppOfTheDayCell.m in Sources */,
+				C1A01DA621F321B8001F4F4B /* Dismiss.m in Sources */,
 				C16063C2219E5FFF00E64647 /* AppDelegate.m in Sources */,
+				C1A01DA721F321B8001F4F4B /* Present.m in Sources */,
+				C1A01DA321F321B8001F4F4B /* TodaySectionHeaderCell.m in Sources */,
+				C1A01DA121F321B8001F4F4B /* WorldPremiereCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
