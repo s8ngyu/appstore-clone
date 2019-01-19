@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Do3-oG-20x">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ydM-1W-4mP">
+            <objects>
+                <tabBarController id="Do3-oG-20x" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="O1F-26-qe4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="zYa-iK-cNN" kind="relationship" relationship="viewControllers" id="rLS-kO-qtD"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8m4-xh-sM6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-460" y="-97"/>
+        </scene>
+        <!--Today-->
+        <scene sceneID="ANh-BD-KnF">
+            <objects>
+                <collectionViewController id="zYa-iK-cNN" customClass="TutorialsCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="JgZ-fi-Kyj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="esC-Wv-HiG">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells/>
+                        <connections>
+                            <outlet property="dataSource" destination="zYa-iK-cNN" id="Ge3-aA-X8d"/>
+                            <outlet property="delegate" destination="zYa-iK-cNN" id="OdA-TT-Mlc"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Today" image="today_apps" id="aHg-co-SjO"/>
+                    <navigationItem key="navigationItem" title="Today" id="bqL-X3-2aW"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Txa-2d-myd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="214" y="-97"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="today_apps" width="30" height="30"/>
+    </resources>
+</document>
