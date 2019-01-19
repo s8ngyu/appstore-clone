@@ -1,6 +1,8 @@
 #  App Store
 ### App Store has been built to *mimic* or *clone* the design of the iOS 11+ App Store app.
-
+  
+![SCREENSHOT](https://github.com/antiquebeta/appstore-clone/blob/master/991B16B2-4025-4870-9A6B-E9FE9E5E8B1B.png)
+  
 The entire app works but is not yet finished, some work needs to be done on transitions before I'll upload them implemented.
 
 
