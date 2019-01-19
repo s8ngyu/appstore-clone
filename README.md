@@ -4,4 +4,4 @@
 The entire app works but is not yet finished, some work needs to be done on transitions before I'll upload them implemented.
 
 
-Please be aware, this is based on the Swift version found [here](https://github.com/phillfarrugia/appstore-clone), I've just converted everything to Objective-C (minus some classes) in an entirely new app (all files are my own, with added improvements).
+Please be aware, this is based on the Swift version found [here](https://github.com/phillfarrugia/appstore-clone), I've just converted everything to Objective-C (minus some classes) in an entirely new app (all files are my own, with added improvements, starting from scratch).
